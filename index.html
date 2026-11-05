@@ -1,171 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ISHAN THAKUR | Join Telegram</title>
 
-<!-- META PIXEL CODE START -->
+  <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;
-n.push=n;
-n.loaded=!0;
-n.version='2.0';
-n.queue=[];
-t=b.createElement(e);
-t.async=!0;
-t.src=v;
-s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)
-}(window,document,'script',
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init','1514326214084181');
-fbq('track','PageView');
+fbq('init', '1514326214084181');
+fbq('track', 'PageView');
 </script>
-
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1514326214084181&ev=PageView&noscript=1"/>
-</noscript>
-<!-- META PIXEL CODE END -->
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1514326214084181&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ISHAN THAKUR | Cricket Analyst</title>
 
 <style>
-*{box-sizing:border-box}
-
-body{
-margin:0;
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-padding:22px;
-font-family:Arial,Helvetica,sans-serif;
-background:radial-gradient(ellipse at center,#24204d,#11132b 48%,#080a17);
-color:#fff;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.wrap{
-width:100%;
-max-width:430px;
-padding:0 10px;
+body {
+  background: #020817;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
-.panel{
-text-align:center;
-border:2px solid #00f5a0;
-border-radius:28px;
-padding:45px 20px;
-background:rgba(13,15,36,.85);
-box-shadow:0 0 22px #00f5a066;
+.container {
+  max-width: 680px;
+  margin: auto;
+  padding: 20px 28px 35px;
+  border-left: 2px solid #78652c;
+  border-right: 2px solid #78652c;
+  background: linear-gradient(180deg, #061126, #020817);
+  min-height: 100vh;
 }
 
-.profile{
-width:112px;
-height:112px;
-margin:0 auto 18px;
-border-radius:50%;
-border:3px solid #d34aff;
-background:linear-gradient(135deg,#d34aff,#00e9a2);
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:35px;
-font-weight:900;
-box-shadow:0 0 18px #d34aff88;
+.header {
+  text-align: center;
+  margin-bottom: 48px;
 }
 
-h1{
-font-size:32px;
-margin:10px 0;
-font-weight:900;
-font-style:italic;
-text-shadow:0 0 12px #b84dff;
+.header h1 {
+  font-size: clamp(28px, 7vw, 48px);
+  color: #d7c57a;
+  letter-spacing: 2px;
 }
 
-.subtitle{
-font-size:13px;
-letter-spacing:3px;
-color:#00f5a0;
-font-weight:800;
-margin:18px 0;
+.header p {
+  color: #e3c65d;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 1.6;
+  margin-top: 8px;
 }
 
-.info{
-color:#e7d7ff;
-font-size:16px;
-line-height:1.7;
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 25px;
+  border: 2px solid #1d3558;
+  border-radius: 75px;
+  box-shadow: 0 0 20px #102a4b;
+  margin-bottom: 45px;
 }
 
-.join{
-display:flex;
-align-items:center;
-justify-content:center;
-width:100%;
-min-height:64px;
-margin:25px auto 0;
-border-radius:50px;
-border:2px solid #7affd3;
-background:linear-gradient(100deg,#00e9a2,#00ff70);
-color:#124b70;
-text-decoration:none;
-font-size:19px;
-font-weight:900;
-box-shadow:0 0 22px #00ff9b66;
+.profile img {
+  width: 145px;
+  height: 145px;
+  object-fit: cover;
+  border: 6px solid #ffca28;
+  border-radius: 35px;
+  padding: 3px;
+  background: #000;
+  flex-shrink: 0;
 }
 
-.join:active{
-transform:scale(.97);
+.verified {
+  color: #69b5ff;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 15px;
 }
 
-.small{
-margin:24px 0 0;
-font-size:11px;
-color:#aab0ca;
-line-height:1.6;
+.profile h2 {
+  font-size: 27px;
+  line-height: 1.2;
 }
 
-@media(max-width:360px){
-h1{font-size:28px}
-.join{font-size:17px}
+.record {
+  text-align: center;
+  padding: 25px 10px;
+  border: 2px solid #1d3558;
+  border-radius: 38px;
+  margin-bottom: 45px;
+  font-size: clamp(22px, 5vw, 34px);
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-bottom: 45px;
+}
+
+.card {
+  text-align: center;
+  padding: 25px 8px;
+  border: 2px solid #1b304d;
+  border-radius: 35px;
+  background: #061124;
+}
+
+.card .emoji {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #42e5a0;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.join {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: #0866ed;
+  border: 6px solid #e7bd45;
+  border-radius: 55px;
+  padding: 32px 10px;
+  margin-bottom: 42px;
+  font-size: clamp(24px, 5.5vw, 38px);
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  box-shadow: 0 0 18px #152b55;
+}
+
+.join:active {
+  transform: scale(.98);
+}
+
+.disclaimer {
+  background: #020b19;
+  border: 2px solid #15263f;
+  border-radius: 35px;
+  padding: 28px;
+  color: #9299aa;
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+.disclaimer strong {
+  color: #f5b942;
+}
+
+footer {
+  text-align: center;
+  color: #727d91;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+@media (max-width: 420px) {
+  .container {
+    padding: 15px 18px 30px;
+  }
+
+  .profile {
+    gap: 18px;
+    padding: 18px;
+  }
+
+  .profile img {
+    width: 120px;
+    height: 140px;
+  }
+
+  .verified {
+    font-size: 20px;
+  }
+
+  .profile h2 {
+    font-size: 23px;
+  }
+
+  .card h3 {
+    font-size: 21px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .disclaimer {
+    font-size: 17px;
+    padding: 22px;
+  }
 }
 </style>
 </head>
 
 <body>
+<div class="container">
 
-<main class="wrap">
-<section class="panel">
+  <header class="header">
+    <h1>ISHAN THAKUR</h1>
+    <p>THE ULTIMATE CRICKET<br>ANALYST</p>
+  </header>
 
-<div class="profile">IT</div>
+  <section class="profile">
+    <img src="ISHAN.jpg" alt="Ishan Thakur profile photo">
 
-<h1>ISHAN THAKUR</h1>
+    <div>
+      <div class="verified">VERIFIED EXPERT ✦</div>
+      <h2>KING OF<br>TELEGRAM</h2>
+    </div>
+  </section>
 
-<div class="subtitle">WELCOME TO OUR CHANNEL</div>
+  <section class="record">
+    38/41 PASS RECORD
+  </section>
 
-<p class="info">
-Join Our Private Telegram Channel
-<br>
-Send Your Join Request Today
-</p>
+  <section class="grid">
+    <div class="card">
+      <div class="emoji">🏏</div>
+      <h3>TOSS TIPS </h3>
+      <p>86/100 PASS</p>
+    </div>
 
-<a class="join"
-href="https://t.me/+mzXpoJXbbhhjMTM1"
-target="_blank"
-rel="noopener noreferrer"
-onclick="if(typeof fbq==='function'){fbq('track','Subscribe');}">
-➤ &nbsp; SEND JOIN REQUEST
-</a>
+    <div class="card">
+      <div class="emoji">🏆</div>
+      <h3>TENNIS</h3>
+      <p>96/100 PASS</p>
+    </div>
 
-<p class="small">
-Click above to open our Telegram channel
-</p>
+    <div class="card">
+      <div class="emoji">⚡</div>
+      <h3>CRICKET</h3>
+      <p>88/100 PASS</p>
+    </div>
 
-</section>
-</main>
+    <div class="card">
+      <div class="emoji">⭐</div>
+      <h3>IPL 2025</h3>
+      <p>55/60 PASS</p>
+    </div>
+  </section>
 
+  <a class="join"
+     href="https://t.me/+dR_oPijTlC9iNzA1"
+     target="_blank"
+     rel="noopener noreferrer">
+    JOIN CHANNEL NOW
+  </a>
+
+  <section class="disclaimer">
+    <strong>DISCLAIMER:</strong>
+    Cricket Tennis analysis is for educational and informational
+    purposes only. Sports outcomes are uncertain.
+    Play responsibly. 18+
+  </section>
+
+  <footer>
+    © 2026 ISHAN THAKUR. All rights reserved.
+  </footer>
+
+</div>
 </body>
 </html>
